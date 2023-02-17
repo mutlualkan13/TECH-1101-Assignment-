@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
+  header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+  }
+  
+  
+  header * {
+    display: inline;
+    height: 50px;
+  background-color: #eee;
+  }
+  
+  
+  header ul {
+    padding: 0;
+  }
+  
+  
+  section {
+    height: 100vh;
+    border: 1px solid rgb(31, 65, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  
+  #info .github {
+    width: 175px;
+  }
+  
+  
+  #home .profile-img {
+    width: 300px;
+    border-radius: 50%;
+    align-items: end;
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 50px;
+    background-color: lightblue;
+  }
+  
+  
+  #home h1 {
+    font-size: 51px;
+  }
+  #home {  
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.unsplash.com/photo-1556139930-c23fa4a4f934?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  }
+  
+  
+  #info {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images.unsplash.com/photo-1675207894388-8246ecd3f3ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+  }
+  
